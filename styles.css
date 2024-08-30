@@ -1,4 +1,4 @@
-/* home */
+/* home section */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -94,7 +94,7 @@ header {
     margin-right:150px;
 }
 
-/* About Section */
+/* about section */
 .about {
     display: flex;
     align-items: center;
@@ -140,7 +140,7 @@ header {
     margin-bottom: 30px;
 }
 
-/* Experience Section */
+/* experience section */
 .experience {
     padding: 80px 50px;
     background-color: #1c1c1c;
