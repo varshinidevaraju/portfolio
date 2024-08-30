@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./portfolio_files/portfolio.css">
 </head>
 <body>
     <header>
@@ -12,41 +11,41 @@
             <div class="logo">Portf<span>lio</span></div>
             <br>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#skills">Experience</a></li>
-                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="http://127.0.0.1:5500/portfolio.html#home">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/portfolio.html#about">About Me</a></li>
+                <li><a href="http://127.0.0.1:5500/portfolio.html#skills">Experience</a></li>
+                <li><a href="http://127.0.0.1:5500/portfolio.html#contact">Contact Me</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="hero-content">
             <h1>Hello, my name is <span class="highlight">Varshini <span>Devaraju!</span></span></h1>
             <p>I'm a Web Developer :)</p>
-            <form action="#">
+            <form action="http://127.0.0.1:5500/portfolio.html#">
                 <input type="email" placeholder="Enter your email">
                 <button type="submit">Let's Start</button>
             </form>
         </div>
         <div class="hero-image">
-            <img src="photo.jpeg" alt="Profile Picture">
+            <img src="./portfolio_files/photo.jpeg" alt="Profile Picture">
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="about-image">
-            <img src="photo.jpeg" alt="Profile Picture">
+            <img src="./portfolio_files/photo.jpeg" alt="Profile Picture">
         </div>
         <div class="about-content">
             <h2>About Me</h2>
-            <h3>Developer <span>& Designer</span></h3>
+            <h3>Developer <span>&amp; Designer</span></h3>
             <p>
-                I am a front-end web developer. I can provide clean code and pixel-perfect design. I also make the website more interactive with web animations. I can provide clean code and pixel-perfect design. I also make the website more & more interactive with web animations. A responsive design makes your website accessible to all users, regardless of their device.
+                I am a front-end web developer. I can provide clean code and pixel-perfect design. I also make the website more interactive with web animations. I can provide clean code and pixel-perfect design. I also make the website more &amp; more interactive with web animations. A responsive design makes your website accessible to all users, regardless of their device.
             </p>
         </div>
     </section>
 
-    <section class="experience">
+    <section class="experience" id="skills">
         <h2>Experience</h2>
         <div class="timeline">
             <div class="timeline-item">
@@ -69,12 +68,13 @@
             </div>
         </div>
     </section>
+    <section id="contact">
     <div style="text-align: center; padding: 20px; background-color: black; color: white;">
         <p style="font-size: 20px;">Contact Me</p>
         <p><strong>Email:</strong> varshini@gmail.com</p>
         <p><strong>Phone:</strong> 9823113289</p>
         <p><strong>Location:</strong> Thandalam,Chennai</p>
     </div>
-
+    </section>
 </body>
 </html>
