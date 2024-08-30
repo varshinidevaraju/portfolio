@@ -85,7 +85,11 @@ header {
     border-radius: 0 25px 25px 0;
     cursor: pointer;
 }
-
+.hero-content .btn{
+    margin-top: 10px;
+    margin-left: 160px;
+    
+}
 .hero-image img {
     border-radius: 50%;
     max-width: 400px;
